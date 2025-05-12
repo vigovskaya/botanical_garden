@@ -1,0 +1,73 @@
+.hero {
+    background-color: white;
+    padding-top: 150px;
+    min-height: 750px;
+
+}
+
+.hero_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hero__content {
+    padding-top: 75px;
+}
+
+
+.address::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('../../images/icons/map-marker-solid.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero__title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #343d33;
+    margin-bottom: 46px;
+
+}
+
+.hero_btns {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-shrink: 0; 
+    
+}
+
+.btn {}
+
+.btn--primary {}
+
+.hero__btn {}
+
+.hero_image {
+    border-radius: 500px 500px 0 0;
+    width: 458px;
+    height: 640px;
+}
+
+.hero__pic {
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom center;
+}
+
+.hero_text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 150%;
+    text-transform: capitalize;
+}
